@@ -1,4 +1,4 @@
-package com.example.aman.chruch;
+
 
 import android.Manifest;
 import android.content.pm.PackageManager;
