@@ -1,4 +1,4 @@
-package com.example.aman.chruch;
+
 
 import android.content.Intent;
 import android.os.Handler;
@@ -15,7 +15,7 @@ public class SplashScreen extends AppCompatActivity {
             @Override
             public void run() {
                 /* Create an Intent that will start the Menu-Activity. */
-                Intent mainIntent = new Intent(SplashScreen.this,login.class);
+                Intent mainIntent = new Intent(SplashScreen.this,"INDENT CLASS");
                 SplashScreen.this.startActivity(mainIntent);
                 SplashScreen.this.finish();
             }
